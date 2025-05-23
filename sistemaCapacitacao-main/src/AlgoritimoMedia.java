@@ -12,7 +12,11 @@ public class AlgoritimoMedia {
         n3 = entrada.nextDouble();
         System.out.println(" Entre com quarta nota ");
         n4 = entrada.nextDouble();
-        double media = (n1+n2+n3+n4) /4;
+        double media = (n1 + n2 + n3 + n4) / 4;
         System.out.println("A media do discrente foi " + media);
-        if (media <5){
+        if (media < 5) {
             System.out.println(" aluno reprovado ");
+        }
+    }
+
+}
